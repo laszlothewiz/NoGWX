@@ -23,6 +23,10 @@ Restart is recommended so that all changes take effect. The script requires admi
 
 The script should run on any Windows 7, 8 or 8.1 computer as long as the Windows is not corrupt, missing Powershell or some of the system utilities. 
 
+## Reversing the changes
+
+If, for some reason, you want to have the Windows 10 ads back, then you can simply run the `reverse-nogwx.cmd` script and it will re-enable GWX after the computer is rebooted. 
+
 ## Contribution
 
 If you find a bug or have a suggestion for improvement please submit a pull request or open an issue. Thanks!
