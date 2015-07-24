@@ -28,6 +28,8 @@ taskkill /IM GWX*
 takeown /r /d N /f c:\windows\system32\gwx 
 icacls c:\windows\system32\gwx\*.*  /c /t /deny everyone:F
 icacls c:\windows\system32\gwx  /c /t /deny everyone:F
+::just for good measure, add disabling by registry settings
+reg add HKLM\Software\Policies\Microsoft\Windows\Gwx /v DisableGwx /t REG_DWORD /d 1 
 cls
 echo ALL DONE!
 echo .
