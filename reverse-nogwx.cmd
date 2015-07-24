@@ -28,6 +28,7 @@ takeown /r /d N /f c:\windows\system32\gwx
 icacls c:\windows\system32\gwx  /c /t /remove:d everyone
 icacls c:\windows\system32\gwx\*.*  /c /t /remove:d everyone
 icacls c:\windows\system32\gwx  /c /t /grant "NT SERVICE\TrustedInstaller":F
+reg delete HKLM\Software\Policies\Microsoft\Windows\Gwx /v DisableGwx /f 
 pause
 cls
 echo ALL DONE!
