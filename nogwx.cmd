@@ -30,5 +30,8 @@ icacls c:\windows\system32\gwx\*.*  /c /t /deny everyone:F
 icacls c:\windows\system32\gwx  /c /t /deny everyone:F
 cls
 echo ALL DONE!
+echo .
 echo Enjoy the peace!
+echo .
+echo Please restart the computer so that all changes take full effect.
 pause
